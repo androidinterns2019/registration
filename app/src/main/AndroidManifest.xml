@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toshiba.test">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="My Application"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Firstpage" />
+        <activity
+            android:name=".Login"
+            android:label="Register Page" />
+        <activity
+            android:name=".Secondpage"
+            android:label="Webview" />
+        <activity
+            android:name=".Selectpage"
+            android:label="Select your choice" />
+        <activity android:name=".Thirdpage" />
+        <activity android:name=".Thirdpage1" />
+        <activity
+            android:name=".Example"
+            android:label="Demo Page" />
+        <activity
+            android:name=".Todoapp1"
+            android:label="@string/title_activity_todoapp1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
